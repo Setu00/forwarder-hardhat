@@ -1,0 +1,40 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0x08F3B0BbFC94D8A60394b755a48a91cDD856168a",
+      "txHash": "0x5c7808cbcb4d7501157ee30fd29470ee968141f0d3ad7900a7f4e5bbf7fa7c11",
+      "kind": "beacon"
+    },
+    {
+      "address": "0x34a6F8205a81b32D303A1A932e3e21c7c5889117",
+      "txHash": "0xad476e41288954edf4261779a5da1438653ceed298b2164f34af509fb1266d72",
+      "kind": "beacon"
+    },
+    {
+      "address": "0x3D01c3dA3336F852bbdcD516ad60FAba700E994e",
+      "txHash": "0x0beaf658ae2df7bc6399046e30d018778162363bdb4e70f14780d0bc233a999d",
+      "kind": "beacon"
+    },
+    {
+      "address": "0xB73A359c5C91dF6f77c7177A275E7Cea9bFD54A9",
+      "txHash": "0x49c2be65f05c2daf82f81f6d7a4bbd64c7ae9ab00ad3d4fcda522c07be34a62f",
+      "kind": "beacon"
+    },
+    {
+      "address": "0xf7169B7Fa07343294E880B716ba40aA6b17042Ef",
+      "txHash": "0x32ffd81cd359e1b6446a44266458f2100cb71f3292f59ecead3919a54d65f1a5",
+      "kind": "beacon"
+    }
+  ],
+  "impls": {
+    "f2c3e619af4655f99c1f9b9f594ddfdf7c681193ab7f4ad870d71b1664cc7f23": {
+      "address": "0x2856CBc89e957aDa238806ceE760751d6F5CE9BA",
+      "txHash": "0x99e7c00baae8cc67d204b8cace3c00f6e81c89747f95904fd95fca31577676b3",
+      "layout": {
+        "storage": [],
+        "types": {}
+      }
+    }
+  }
+}
