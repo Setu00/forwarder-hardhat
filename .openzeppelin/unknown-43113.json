@@ -25,6 +25,21 @@
       "address": "0xf7169B7Fa07343294E880B716ba40aA6b17042Ef",
       "txHash": "0x32ffd81cd359e1b6446a44266458f2100cb71f3292f59ecead3919a54d65f1a5",
       "kind": "beacon"
+    },
+    {
+      "address": "0xcEC254c2f81C24C4eC9E71F16CE626344fD01b40",
+      "txHash": "0xd583a6a7613ab6bf1476bedddf222d641dd3d979f96a63a9a1bd974cd65da5c9",
+      "kind": "beacon"
+    },
+    {
+      "address": "0x56C392a4E511c158cE097A29ad29d05C5d33566d",
+      "txHash": "0x1dea2133329315ea979e404b046fdb637ab8fddf48a74d36e51adc61e533832a",
+      "kind": "beacon"
+    },
+    {
+      "address": "0x20FDFB2DB901D4AB342ab8aF5c62373f31D32C8e",
+      "txHash": "0xc9c3ca01c1318d53e808a8a54c8432a87f6c6a7105af6c2852a1b6a90f3f831c",
+      "kind": "beacon"
     }
   ],
   "impls": {
@@ -34,6 +49,82 @@
       "layout": {
         "storage": [],
         "types": {}
+      }
+    },
+    "21dc27fab3795923024d7d75a0b5012bf477bd383f92db3ec867eb8c47c291a6": {
+      "address": "0x987bD383D98607F13De2514dF04e1fF96Cb33b68",
+      "txHash": "0x4048479d5471f71f388d41866fc892c09384ce07008a31fd9c702ede5bd8d8ef",
+      "layout": {
+        "storage": [],
+        "types": {}
+      }
+    },
+    "d8a0f2ae0d2c63763cde8c5a4f5d141d4d13e5c3d3f90d64efabba80b0a03ba9": {
+      "address": "0xF098855fD83f54b603a8AFB7172cFDD8aEEEE3f9",
+      "txHash": "0x9b8523a47b2e0bcbccccd6c3aa14d148b3220390bab1d6251b4cc46affb0fed2",
+      "layout": {
+        "storage": [
+          {
+            "label": "token",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_contract(IERC20)77",
+            "contract": "forwarderV2",
+            "src": "contracts\\forwarderV2.sol:11"
+          },
+          {
+            "label": "balance",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "forwarderV2",
+            "src": "contracts\\forwarderV2.sol:12"
+          }
+        ],
+        "types": {
+          "t_contract(IERC20)77": {
+            "label": "contract IERC20",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "0fd4be18d3c193ed9fec979d7d8104785787d198b15baffcaef77856df3cc8ec": {
+      "address": "0x4fc553Be212BB73F0eAB0a35d45Ebc1c6c2543d2",
+      "txHash": "0x6f461503349628e65d9a6abcca2bed316efde2ee052a52cc400c0d9280f5771e",
+      "layout": {
+        "storage": [
+          {
+            "label": "token",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_contract(IERC20)77",
+            "contract": "forwarderV2",
+            "src": "contracts\\forwarderV2.sol:11"
+          },
+          {
+            "label": "balance",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "forwarderV2",
+            "src": "contracts\\forwarderV2.sol:12"
+          }
+        ],
+        "types": {
+          "t_contract(IERC20)77": {
+            "label": "contract IERC20",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
       }
     }
   }

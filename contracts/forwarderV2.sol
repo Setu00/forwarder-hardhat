@@ -30,8 +30,8 @@ contract forwarderV2 {
     }
 
     receive() external payable {
-        (bool success, ) = ownerAddress.call{value: msg.value, gas: 1500 }("");
-        require(success, "forward failed");
+        ownerAddress.transfer(msg.value);
+
     }
 
 }
